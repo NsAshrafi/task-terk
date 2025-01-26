@@ -24,7 +24,7 @@ class WelcomePage extends StatelessWidget {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/img/back4.jpg'),
+            image: AssetImage('assets/img/backmain.jpg'),
             fit: BoxFit.cover,
           ),
         ),
@@ -33,20 +33,21 @@ class WelcomePage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
-                'Welcome To The TASKTERK',
+                'Welcome To The\n TASKTERK',
+                textAlign: TextAlign.center,
                 style: TextStyle(
-                  color: Colors.white,
+                  color: Color.fromARGB(255, 255, 255, 255),
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              const SizedBox(height: 60),
+              const SizedBox(height: 30),
               Container(
                 height: 145,
                 width: 145,
                 decoration: BoxDecoration(
                   image: const DecorationImage(
-                    image: AssetImage('assets/img/logo.jpg'),
+                    image: AssetImage('assets/img/logomainn.png'),
                     fit: BoxFit.cover,
                   ),
                   borderRadius: BorderRadius.circular(72.5),
@@ -56,10 +57,10 @@ class WelcomePage extends StatelessWidget {
                   ),
                 ),
               ),
-              const SizedBox(height: 60),
+              const SizedBox(height: 50),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  padding: const EdgeInsets.symmetric(horizontal: 60, vertical: 30),
+                  padding: const EdgeInsets.symmetric(horizontal: 45, vertical: 20),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(20),
                   ),
