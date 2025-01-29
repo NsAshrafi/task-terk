@@ -113,7 +113,7 @@ class SignInLogPage extends StatelessWidget {
                       );
                     },
                     child: const Text(
-                      'Sign In',
+                      'Register',
                       style: TextStyle(
                         fontSize: 16,
                         fontWeight: FontWeight.bold,

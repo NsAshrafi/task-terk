@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:task_terk/pages/profile_page.dart';
-import 'package:task_terk/pages/signinlog_page.dart';
+import 'package:task_terk/pages/register_page.dart';
 
 class SignInPage extends StatelessWidget {
   const SignInPage({super.key});
@@ -98,7 +98,7 @@ class SignInPage extends StatelessWidget {
                       );
                     },
                     child: const Text(
-                      'Sign In',
+                      'Register',
                       style: TextStyle(
                         fontSize: 16,
                         fontWeight: FontWeight.bold,
