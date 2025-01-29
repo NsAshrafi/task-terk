@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:task_terk/pages/set_profilephoto.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
@@ -34,10 +35,18 @@ class ProfilePage extends StatelessWidget {
               ),
               const SizedBox(height: 10),
            
-            const Text(
-              'Set Profile Photo',
-              style: TextStyle(fontSize: 18, color: Colors.blueAccent),
-            ),
+            GestureDetector(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const SetProfilePhotoPage()),
+                  );
+                },
+                child: const Text(
+                  'Set Profile Photo',
+                  style: TextStyle(fontSize: 18, color: Colors.blueAccent, decoration: TextDecoration.underline),
+                ),
+              ),
               const SizedBox(height: 30),
               TextField(
                 decoration: InputDecoration(
