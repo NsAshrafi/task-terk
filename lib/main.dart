@@ -40,10 +40,11 @@ class WelcomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Welcome'),
+        backgroundColor: const Color.fromARGB(255, 162, 70, 156),
+        title: const Text('TASK TERK'),
         actions: [
           IconButton(
-            icon: Icon(isDarkMode ? Icons.dark_mode : Icons.light_mode),
+            icon: Icon(isDarkMode ? Icons.dark_mode : Icons.sunny),
             onPressed: toggleTheme,
           ),
         ],
