@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:task_terk/pages/signin_page.dart';
-import 'package:simple_animations/simple_animations.dart';
+// import 'package:simple_animations/simple_animations.dart';
 import 'package:widget_circular_animator/widget_circular_animator.dart';
 
 void main() => runApp(const MyApp());

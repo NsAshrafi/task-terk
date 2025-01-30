@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:task_terk/pages/home_page.dart';
 import 'package:task_terk/pages/set_profilephoto.dart';
 
 class ProfilePage extends StatefulWidget {
@@ -112,7 +113,14 @@ class _ProfilePageState extends State<ProfilePage> {
                       ),
                       backgroundColor: Colors.blueAccent,
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const HomePage()),
+                  );
+                    },
                     child: const Text(
                       'Save',
                       style: TextStyle(
