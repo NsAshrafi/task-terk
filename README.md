@@ -101,6 +101,10 @@ flutter  run
 <img width="499" alt="Screenshot 2025-01-30 at 19 18 35" src="https://github.com/user-attachments/assets/1c2e3cc9-8c3b-454b-aaab-d0075fe157ab" />
 
 
+https://github.com/user-attachments/assets/69b19a5a-ee78-4870-a2bd-aa7f23781421
+
+
+
 ## Projeye Katkı Sağlama
 
 1. Projeyi forklayın
