@@ -91,11 +91,14 @@ flutter  run
 ```
 
 ## Ekran Görüntüleri
-![Uploading Screenshot 2025-01-30 at 19.18.35.png<img width="498" alt="Screenshot 2025-01-30 at 19 19 16" src="https://github.com/user-attachments/assets/4b485438-9e49-4e23-8c8c-<img width="498" alt="Screenshot 2025-01-30 at 19 23 19" src="https://github.com/user-attachments/assets/46a06b0a-7234-4fd7-aa12-274e52505054" />
-dce68a0cccb0" />
-…]()<img width="498" alt="Screenshot 2025-01-30 at 20 19 15" src="https://github.com/user-attachments/assets/58e1fe2e-1c84-451d-85f0-270834d02c7c" />
 
 
+<img width="498" alt="Screenshot 2025-01-30 at 20 19 15" src="https://github.com/user-attachments/assets/8b6a90d0-47ad-45ee-b8db-427a31c90c20" />
+<img width="498" alt="Screenshot 2025-01-30 at 19 23 19" src="https://github.com/user-attachments/assets/e9f154d5-c249-44ae-8a4c-8831ddf0ffc1" />
+<img width="499" alt="Screenshot 2025-01-30 at 19 22 11" src="https://github.com/user-attachments/assets/a12a0159-c1c0-4ea7-923c-cc55734ff7c7" />
+<img width="501" alt="Screenshot 2025-01-30 at 19 19 46" src="https://github.com/user-attachments/assets/ed331ca6-8ebd-404e-944f-316d479cbfcc" />
+<img width="498" alt="Screenshot 2025-01-30 at 19 19 16" src="https://github.com/user-attachments/assets/7e77e552-132e-4fac-975b-df8158f6487e" />
+<img width="499" alt="Screenshot 2025-01-30 at 19 18 35" src="https://github.com/user-attachments/assets/1c2e3cc9-8c3b-454b-aaab-d0075fe157ab" />
 
 
 ## Projeye Katkı Sağlama
