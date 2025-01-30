@@ -40,7 +40,7 @@ class WelcomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 162, 70, 156),
+        // backgroundColor: const Color.fromARGB(255, 162, 70, 156),
         title: const Text('TASK TERK'),
         actions: [
           IconButton(
@@ -99,7 +99,7 @@ class WelcomePage extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(20),
                   ),
-                  backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+                  // backgroundColor: const Color.fromARGB(255, 255, 255, 255),
                 ),
                 onPressed: () {
                   Navigator.push(
@@ -112,7 +112,7 @@ class WelcomePage extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
-                    color: Color.fromARGB(255, 0, 127, 253),
+                    // color: Color.fromARGB(255, 0, 127, 253),
                   ),
                 ),
               ),
