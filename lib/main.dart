@@ -1,9 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:task_terk/pages/signin_page.dart';
+import 'package:task_terk/providers/theme_provider.dart';
 // import 'package:simple_animations/simple_animations.dart';
 import 'package:widget_circular_animator/widget_circular_animator.dart';
 
-void main() => runApp(const MyApp());
+void main() => runApp(
+  MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => ThemeProvider()),
+      ],
+      child: const MyApp(),
+    ),
+);
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
