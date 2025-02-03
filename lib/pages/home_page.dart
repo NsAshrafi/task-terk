@@ -38,7 +38,8 @@ class _HomePageState extends State<HomePage> {
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Search'),
           BottomNavigationBarItem(icon: Icon(Icons.video_call), label: 'Reels'),
-          BottomNavigationBarItem(icon: Icon(Icons.shopping_bag), label: 'Shop'),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.shopping_bag), label: 'Shop'),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
         ],
       ),
@@ -116,13 +117,15 @@ class HomePageContent extends StatelessWidget {
                       height: 300,
                       decoration: BoxDecoration(
                         image: DecorationImage(
-                          image: AssetImage('assets/img/posts/job${index + 1}.jpg'),
+                          image: AssetImage(
+                              'assets/img/posts/job${index + 1}.jpg'),
                           fit: BoxFit.cover,
                         ),
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 10, vertical: 5),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
@@ -157,7 +160,8 @@ class HomePageContent extends StatelessWidget {
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 10, vertical: 5),
                       child: Text(
                         'Company ${index + 1}:🚀 We\'re Hiring! 🚀\n\n'
                         'Are you ready to take your career to the next level? 📈 Join Company Name and be part of an innovative team that’s shaping the future! 🌍✨\n\n'

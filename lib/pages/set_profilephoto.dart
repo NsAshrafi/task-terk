@@ -15,6 +15,15 @@ class SetProfilePhotoPage extends StatelessWidget {
       'assets/img/profiles/7.jpg',
       'assets/img/profiles/8.jpg',
       'assets/img/profiles/9.jpg',
+      'assets/img/profiles/10.jpg',
+      'assets/img/profiles/11.jpg',
+      'assets/img/profiles/12.jpg',
+      'assets/img/profiles/13.jpg',
+      'assets/img/profiles/5.jpg',
+      'assets/img/profiles/6.jpg',
+      'assets/img/profiles/7.jpg',
+      'assets/img/profiles/8.jpg',
+      'assets/img/profiles/9.jpg',
     ];
     return Scaffold(
       appBar: AppBar(
